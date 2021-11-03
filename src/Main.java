@@ -1,5 +1,7 @@
 public class Main {
     public static void  main(String[] args){
-        System.out.print("hi i am eswar");
+        int a=10,b=20;
+        System.out.print("a+b is "+(a+b));
+
     }
 }
