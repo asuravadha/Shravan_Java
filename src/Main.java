@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void  main(String[] args){
-        int a=10,b=20;
-        System.out.print("a+b is "+(a+b));
+        Scanner input=new Scanner(System.in);
+        System.out.println("enter your name");
+        String name=input.next();
+
+        System.out.println("\n hi "+name+" welcome to dubai");
+
+
 
     }
 }
