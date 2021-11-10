@@ -4,6 +4,85 @@ public class Main {
     public static void  main(String[] args){
 
 
+        //assignment  print rhombus using while loop
+
+int n=7;
+int space=n;
+        for(int i=1;i<=n;i++){
+            for(int s=0;s<space;s++){
+                System.out.print(" ");
+            }
+            space--;
+            for(int j=1;j<=i;j++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+
+
+
+//        int table;
+//        int range;
+////        System.out.println(table+" x "+" 1 = "+ table*1);
+////        System.out.println(table+" x "+" 2 = "+ table*2);
+//        Scanner input=new Scanner(System.in);
+//        System.out.println("enter table value");
+//        table=input.nextInt();
+//        System.out.println("enter table range");
+//        range=input.nextInt();
+//        int i;
+////        for(i=1;i<=range;i++){
+////            System.out.println(table+" x "+ i+" = "+ table*i);
+////        }
+//        i=1;
+//        while(i<=range){
+//            System.out.println(table+" x "+ i+" = "+ table*i);
+//            i++;
+//        }
+
+
+
+
+
+
+//        System.out.println(i);
+
+
+
+//        int a,b,c;
+//        Scanner input=new Scanner(System.in);
+//        a=input.nextInt();
+//        b=input.nextInt();
+//        c=input.nextInt();
+
+
+//        if(a>b){
+//            if(a>c){
+//                System.out.println("a is greater");
+//            }
+//            else{
+//                System.out.println("c is greater");
+//            }
+//        }
+//        else if(b>c){
+//            System.out.println("b is greater");
+//        }
+//        else{
+//            System.out.println("c is greater");
+//        }
+//
+//
+//        if(a>b && a>c){
+//            System.out.println("a is greater");
+//        }
+//        else if(b>c){
+//            System.out.println("b is greater");
+//        }
+//        else{
+//            System.out.println("c is greater");
+//        }
+
 
 
 //        Scanner input=new Scanner(System.in);
