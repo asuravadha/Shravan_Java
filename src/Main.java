@@ -1,23 +1,69 @@
 import java.util.Scanner;
 
 public class Main {
+    //method
+    //arg   no return
+
+
     public static void  main(String[] args){
+
+        Scanner input=new Scanner((System.in));
+
+
+
+
+//        int[] array =new int[5];
+//                for(int index=0;index<array.length;index++){
+//                    System.out.println("enter "+index+" value");
+//            array[index]=input.nextInt();
+//
+//        }
+//
+//                for(int i:array){
+//                    System.out.println(i);
+//                }
+
+
+
+
+
+
+//        int[] a={10,324,32432,2342,34233423,4234,234,234,234};
+//        for(int index=0;index<a.length;index++){
+//            System.out.println(a[index]);
+//
+//        }
+//        for(int i:a){
+//            System.out.println(i);
+//        }
+
+
 
 
         //assignment  print rhombus using while loop
+//        int n=7;
+//        int space=n;
+//        for(int i=1;i<=n;i++){
+//            for(int s=0;s<space;s++){
+//                System.out.print(" ");
+//            }
+//            space--;
+//            for(int j=1;j<=i;j++){
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
 
-int n=7;
-int space=n;
-        for(int i=1;i<=n;i++){
-            for(int s=0;s<space;s++){
-                System.out.print(" ");
-            }
-            space--;
-            for(int j=1;j<=i;j++){
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+
+//int table=2,range=10;
+//       int i=1;
+//        do{
+//            System.out.println(table+" x "+ i+" = "+ table*i);
+//            i++;
+//        }while(i<=range);
+
+
+
 
 
 
@@ -129,4 +175,6 @@ int space=n;
 
 
     }
+
+
 }
