@@ -42,7 +42,38 @@ public class nov12 {
     }
 
     public static void main(String[] args){
-        System.out.println(greetings());
+//        System.out.println(greetings());
+
+
+        int n=7;
+        int space=n;
+        for(int i=1;i<=n;i++)
+        {
+            for(int s=0;s<space;s++)
+            {
+                System.out.print("    ");
+            }
+            space--;
+            for(int j=1;j<=i;j++){
+                System.out.print("*       ");
+            }
+            System.out.println();
+        }
+       space=2;
+        n--;
+        for(int i=n;i>0;i--)
+        {
+            for(int s=0;s<space;s++)
+            {
+                System.out.print("    ");
+            }
+            space++;
+            for(int j=1;j<=i;j++){
+                System.out.print("*       ");
+            }
+            System.out.println();
+        }
+
 
     }
 }
