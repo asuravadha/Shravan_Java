@@ -7,6 +7,13 @@ public class Main extends data {
         System.out.println("programm started");
         Scanner input=new Scanner(System.in);
         String[][] auth =new String[2][10];
+//        String[] Username=new String[10];
+//        String[] Password=new String[10];
+
+        //project euler
+        //code wars
+        //hacker earth
+        
         int index=0;
         boolean flag=true;
         while(true){
