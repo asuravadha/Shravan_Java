@@ -1,5 +1,7 @@
 package nov30;
 
+import java.util.ArrayList;
+
 public class poly {
     public static void add(int a,int b){
         System.out.println(a+b);
@@ -16,5 +18,12 @@ public class poly {
         result+=i;
     }
     System.out.println(result);
+    }
+    public static void add(ArrayList<String> data) {
+
+        for(String d:data){
+            System.out.println(d);
+        }
+
     }
 }
